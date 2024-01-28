@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <button class="show__btn">Show Posts</button>
+        <button class="create__btn">Create Posts</button>
+        <button class="delete__btn">Delete Post</button>
+        <button class="editing__btn">Editing Post</button>
+
+        <div class="overlay"></div>
+
+        <div class="popup">
+            <h2 class="popup__title"></h2>
+            <div class="popup__content"></div>
+            <img class="popup__img" src="" alt="">
+            
+            <button class="popup__close" onclick="closePopup()">Close</button>
+        </div>
+
+        <div class="post-list">
+            <h2 class="post-list__title">Posts List</h2>
+            <ul class="post-list__items">
+                
+            </ul>
+            
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

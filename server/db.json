@@ -1,0 +1,63 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "content": "Content for post 1",
+      "img": "img/img1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "content": "Content for post 2",
+      "img": "img/img2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "this is another title",
+      "content": "Content for post 3",
+      "img": "img/img3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "new another title",
+      "content": "Content for post 4",
+      "img": "img/img4.jpg"
+    },
+    {
+      "id": "1b6a",
+      "title": "this is new post",
+      "content": "Content for new post",
+      "img": "img/img5.jpg"
+    },
+    {
+      "id": "a38e",
+      "title": "this is new post",
+      "content": "Content for new post",
+      "img": "img/img5.jpg"
+    },
+    {
+      "title": "ааааааа",
+      "content": "Content for post 6",
+      "img": "img/img6.jpg",
+      "id": "98ed"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode",
+    "age": "20",
+    "phone": ""
+  }
+}
